@@ -42,6 +42,7 @@ $(document).ready(function() {
         
       });
 
+      
     function updateTable(){
         var _list = localStorage.getItem("WPIndex");
         var _list_item = JSON.parse(_list);
